@@ -6,5 +6,5 @@
 	* [Controllers](getting-started/controllers.md)
 	* [Collections](getting-started/collections.md)
 
-* [Hooks](getting-started/README.md)
+* [Hooks](getting-started/hooks/README.md)
 	* [wpdev.factory.postModelClass](getting-started/hooks/filters/wpdev-factory-postModelClass.md)
