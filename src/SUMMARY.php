@@ -7,4 +7,4 @@
 	* [Collections](getting-started/collections.md)
 
 * [Hooks](getting-started/hooks.md)
-	* [wpdev.factory.postModelClass](wpdev-factory-postModelClass.md)
+	* [wpdev.factory.postModelClass](getting-started/hooks/filters/wpdev-factory-postModelClass.md)
