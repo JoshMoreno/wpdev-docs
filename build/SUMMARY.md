@@ -3,12 +3,12 @@
 * [Introduction](README.md)
 
 ## Getting Started
-* [Requirements/Installation](getting-started/README.md)
-* [Default Data](getting-started/default-data.md)
-* [Controllers](getting-started/controllers.md)
-* [Collections](getting-started/collections.md)
+* [Requirements/Installation](requirements-installation.md)
+* [Default Data](default-data.md)
+* [Controllers](controllers.md)
+* [Collections](collections.md)
 
 ## Hooks
-* [Overview](getting-started/hooks/README.md)
+* [Overview](hooks/README.md)
 * [Filters]()
-	* [wpdev.factory.postModelClass](getting-started/hooks/filters/wpdev-factory-postModelClass.md)
+	* [wpdev.factory.postModelClass](hooks/filters/wpdev-factory-postModelClass.md)
