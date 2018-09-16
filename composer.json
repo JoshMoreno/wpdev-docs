@@ -1,0 +1,11 @@
+{
+    "require-dev": {
+        "joshmoreno/wpdev": "dev-master",
+        "league/flysystem": "^1.0"
+    },
+  "autoload-dev": {
+    "psr-4": {
+      "WPDevDocs\\": "inc/"
+    }
+  }
+}
