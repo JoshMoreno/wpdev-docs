@@ -1,5 +1,3 @@
-# Summary
+# Table of Contents
 ​
-## Group 1
-​
-* [Read Me](../README.md)
+* [Read Me](README.md)

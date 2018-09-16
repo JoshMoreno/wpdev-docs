@@ -1,5 +1,3 @@
-# Summary
-​
-## Group 1
+# Table of Contents
 ​
 * [Read Me](README.md)
