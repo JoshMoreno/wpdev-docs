@@ -27,7 +27,7 @@ To fulfill this implementation, the class must contain a `build()` method which 
 Use the snippet below to get started even faster. Just rename `{{MyTheme}}` to the namespace of your theme or project and change `{{SinglePost}}` to something that makes sense.
 
 ```php
-&lt;?php
+<?php
 namespace {{MyTheme}};
 
 use WPDev\Controller\ControllerInterface;
