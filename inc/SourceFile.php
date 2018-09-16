@@ -73,9 +73,14 @@ class SourceFile
 
 	public function render($data = [])
 	{
-		ob_start();
-		include $this->fullPath();
-		return ob_get_clean();
+		if ($this->file->getExtension() === 'md') {
+			return file_get_contents($this->fullPath());
+		} else {
+			ob_start();
+			include $this->fullPath();
+			return ob_get_clean();
+		}
+
 	}
 
 	/*

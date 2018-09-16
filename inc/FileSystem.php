@@ -33,6 +33,7 @@ class FileSystem
 		$files = $this->finder
 			->files()
 			->in($this->srcDir)
+			->name('*.md')
 			->name('*.php');
 
 		$files = iterator_to_array($files);
