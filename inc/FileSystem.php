@@ -43,6 +43,13 @@ class FileSystem
 		}, $files);
 	}
 
+	public function removeOldFiles()
+	{
+		$this->system->deleteDir('build');
+
+		return $this;
+	}
+
 	/**
 	 * @param $path
 	 * @param $contents

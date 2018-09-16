@@ -40,37 +40,6 @@ class SourceFile
 		return $this->targetPath;
 	}
 
-	/**
-	 * Compares new content to old content
-	 * So we can preserve modified times
-	 *
-	 * @param string $newContent
-	 *
-	 * @return bool
-	 */
-	public function hasChanged($newContent)
-	{
-		if (!file_exists($this->targetPath)) {
-			return true;
-		}
-
-		$oldContentHash = md5_file($this->targetPath);
-		$newContentHash = md5($newContent);
-
-		return $oldContentHash !== $newContentHash;
-	}
-
-	/**
-	 * Just the inverse of @see hasChanged
-	 * @param $newContent
-	 *
-	 * @return bool
-	 */
-	public function hasNotChanged($newContent)
-	{
-		return !$this->hasChanged($newContent);
-	}
-
 	public function render($data = [])
 	{
 		if ($this->file->getExtension() === 'md') {
