@@ -9,6 +9,6 @@
 * [Collections](collections.md)
 
 ## Hooks
-* [Overview](hooks/README.md)
+* [Overview](hooks/overview.md)
 * [Filters]()
 	* [wpdev.factory.postModelClass](hooks/filters/wpdev-factory-postModelClass.md)
