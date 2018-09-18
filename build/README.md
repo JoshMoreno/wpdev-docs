@@ -1,9 +1,9 @@
 # Rapid Modern WordPress Dev
 #### A framework to ease the pain all in a plugin
 
-[Download 2.0.1-alpha](https://github.com/JoshMoreno/wpdev/releases/download/v2.0.1-alpha/wpdev.zip)
+> [Download 2.0.1-alpha](https://github.com/JoshMoreno/wpdev/releases/download/v2.0.1-alpha/wpdev.zip)
 
-[Get Started](/docs)
+> [Get Started](/docs)
 
 ## Features
 

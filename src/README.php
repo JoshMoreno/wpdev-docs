@@ -1,9 +1,9 @@
 # Rapid Modern WordPress Dev
 #### A framework to ease the pain all in a plugin
 
-[Download <?= $data['currentVersion'] ?>](<?= $data['downloadUrl'] ?>)
+> [Download <?= $data['currentVersion'] ?>](<?= $data['downloadUrl'] ?>)
 
-[Get Started](/docs)
+> [Get Started](/docs)
 
 ## Features
 
