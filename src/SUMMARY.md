@@ -15,4 +15,4 @@
 	* [wpdev.factory.postModelClass](hooks/filters/wpdev-factory-postModelClass.md)
 
 ## Models
-* [Post]()
+* [Post](models/post.md)
