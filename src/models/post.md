@@ -3,7 +3,7 @@ A better post object. Ditch "The Loop".
 
 ## Usage
 ### Single
-```php
+```PHP
 <?php /** @var \WPDev\Models\Post $Post */ ?>
 <h1>
 	<a href="<?= $Post->url(); ?>">
