@@ -67,5 +67,14 @@ If you're extending this class, these might be of use.
 | restoreWpGlobals | Restores WordPress globals after altering them with `$this->setupWpGlobals()`. |
 | setupWpGlobals | This is a bit of a hack so we can reliable call functions like get_the_content() that depend on being called inside "The Loop (aka having the post as a global along with other related globals)". So dumb! |
 
+#### __construct
+##### __construct( int | \WP_Post | null `$post` )
+
+##### Summary
+Constructor. For a fluid syntax use `Post::create`.
+
+##### Parameters
+###### post
+Optional. Post ID or post object. Defaults to global $post.
 
 
